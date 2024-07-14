@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes upAndDown {
+  0%,
+  100% {
+    transform: translateY(35px);
+  }
+  50% {
+    transform: translateY(-35px);
+  }
+}
+
+.animatedImage {
+  animation: upAndDown 3.5s ease-in-out infinite;
+}
+
+.delay1 {
+  animation-delay: 0.5s;
+}
+
+.delay2 {
+  animation-delay: 1.5s;
+}
+
+.delay3 {
+  animation-delay: 0s;
+}
+
+.delay4 {
+  animation-delay: 1s;
+}
