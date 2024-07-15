@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Burerguy() {
   return (
-    <div className="container flex justify-evenly items-center w-full px-28 p-1 m-auto rounded-xl">
+    <div className="container flex justify-evenly items-center w-full px-28 p-1 m-auto rounded-xl ">
       <div className="w-6/12">
         <Image
           src="/assets/nashville-hot-chicken-tender-sandwich.png.avif"
@@ -20,8 +20,8 @@ export default function Burerguy() {
           <p className="text-lg text-black py-8">
             With mayo, shredded lettuce and pickles
           </p>
-          <button class=" border-2 border-black text-black font-bold py-2 px-7 rounded-3xl">
-            Button
+          <button class=" border-2 border-black text-black font-bold py-2 px-4 rounded-3xl">
+            ORDER NOW
           </button>
         </div>
         <div className="w-5/12">
