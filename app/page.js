@@ -29,6 +29,29 @@ export default function Home() {
           text="beast style burger combo"
         />
       </div>
+      <div className="w-11/12 rounded-2xl flex justify-evenly items-start h-fit bg-gradient-to-r from-amber-300">
+        <div className="w-full text-start p-20 ">
+          <h3 className="text-3xl font-bold w-9/12">
+            Visit the World’s First MrBeast Burger Restaurant at American Dream!
+          </h3>
+          <div className="mt-14">
+            <Link
+              href="#"
+              className="p-4 bg-red-500 rounded-2xl text-white font-bold"
+            >
+              LEARN ABOUT THE RESTAURANT
+            </Link>
+          </div>
+        </div>
+        <div className=" z-[-1] w-full">
+          <Image
+            src="/assets/american-dream.png.avif"
+            width={600}
+            height={300}
+            className="object-cover"
+          />
+        </div>
+      </div>
     </main>
   );
 }

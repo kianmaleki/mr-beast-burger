@@ -3,12 +3,13 @@ import Image from "next/image";
 export default function Baners() {
   return (
     <>
-      <div className="relative w-screen h-[500px] top-24 flex justify-end items-center mb-40">
+      <div className="relative w-screen h-[500px] top-16 flex justify-end items-center mb-40">
         <Image
           src="/assets/sandwich-banner.png.avif"
           alt="baner images"
-          layout="fill"
-          className="z-[-1]"
+          width={900}
+          height={900}
+          className="z-[-1] w-screen absolute"
         />
         <div className="right-0 flex items-end justify-center p-5 w-full">
           <div className="grid grid-cols-4 gap-4 z-[-1]">
