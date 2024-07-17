@@ -6,17 +6,20 @@ import Burerguy from "./components/Burgerguy";
 import Card from "./components/Card";
 import FooterBaners from "./components/FooterBaners";
 import MainFooter from "./components/MainFooter";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
 export default function Home() {
   return (
-    <main className="flex min-h-full flex-col items-center justify-start h-dvh">
+    <main className="flex min-h-screen flex-col items-center justify-start">
       <NavBar />
       <HeaderBaners />
       <Burerguy />
       <div className="text-left w-11/12 mt-16">
         <h3 className="text-3xl font-bold">Jimmy’s Favorites</h3>
       </div>
-      <div className="flex justify-evenly items-start w-full">
+      <div className="flex flex-wrap justify-evenly items-center w-full mt-8 space-y-8 md:space-y-0">
         <Card
           src="chocolate-chip-cookie.png.avif"
           text="chocolate chip cookie"
@@ -33,12 +36,12 @@ export default function Home() {
       </div>
       <FooterBaners />
       <Link
-        class="fixed left-0 bottom-24 z-10 px-3 p-3 rounded-r-full bg-black text-white text-3xl"
+        className="fixed left-0 bottom-24 z-10 px-3 py-3 rounded-r-full bg-black text-white text-3xl"
         href="javascript:void(0);"
         title="Accessibility Tools"
         role="link"
       >
-        <span class="pojo-sr-only sr-only">Open toolbar</span>
+        <span className="pojo-sr-only sr-only">Open toolbar</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 100 100"

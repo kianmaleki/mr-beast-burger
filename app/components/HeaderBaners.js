@@ -3,48 +3,31 @@ import Image from "next/image";
 export default function HeaderBaners() {
   return (
     <>
-      <div className="relative w-full h-[500px] top-16 flex justify-end items-center mb-40">
+      <div className="relative w-full h-[300px] md:h-[500px] top-16 flex justify-end items-center mb-20 md:mb-40 bg-[#fe9dbc] z-[-1]">
         <Image
           src="/assets/sandwich-banner.png.avif"
-          alt="baner images"
-          width={900}
-          height={900}
-          className="z-[-1] w-full absolute"
+          alt="banner image"
+          layout="fill"
+          objectFit="contain"
+          className="z-[-1]"
         />
         <div className="right-0 flex items-end justify-center p-5 w-full">
-          <div className="grid grid-cols-4 gap-4 z-[-1]">
-            <div className="animatedImage delay1">
-              <Image
-                src="/assets/chris-style-label.svg"
-                alt="baner images"
-                width={250}
-                height={250}
-              />
-            </div>
-            <div className="animatedImage delay2">
-              <Image
-                src="/assets/beast-style-label.svg"
-                alt="baner images"
-                width={250}
-                height={250}
-              />
-            </div>
-            <div className="animatedImage delay3">
-              <Image
-                src="/assets/karl-s-grilled-cheese-label.svg"
-                alt="baner images"
-                width={250}
-                height={250}
-              />
-            </div>
-            <div className="animatedImage delay4">
-              <Image
-                src="/assets/chandle-style-label.svg"
-                alt="baner images"
-                width={250}
-                height={250}
-              />
-            </div>
+          <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 gap-4 z-[-1]">
+            {[
+              "chris-style-label.svg",
+              "beast-style-label.svg",
+              "karl-s-grilled-cheese-label.svg",
+              "chandle-style-label.svg",
+            ].map((src, index) => (
+              <div className={`animatedImage delay${index + 1}`} key={index}>
+                <Image
+                  src={`/assets/${src}`}
+                  alt="banner label"
+                  width={250}
+                  height={250}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
