@@ -12,7 +12,7 @@ import {
 export default function MainFooter() {
   return (
     <footer className="bg-black text-white py-5 w-full p-5">
-      <div className="container mx-auto flex flex-wrap justify-between items-start px-5 md:px-10 space-y-5 md:space-y-0">
+      <div className="container mx-auto flex flex-wrap justify-between items-center px-5 md:px-10 space-y-5 md:space-y-0">
         <div className="flex flex-wrap w-full md:w-6/12 space-y-3 md:space-y-0">
           {[
             "About",
@@ -28,7 +28,7 @@ export default function MainFooter() {
             <Link
               key={index}
               href="#"
-              className="text-white text-sm p-3 w-full md:w-auto"
+              className="text-white text-sm p-2 w-full md:w-auto"
             >
               {item}
             </Link>

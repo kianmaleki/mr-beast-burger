@@ -8,7 +8,7 @@ export default function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-200 w-full flex justify-between items-center px-6 md:px-14 py-5 fixed top-0 border-b-2 z-10">
+    <nav className="bg-white border-gray-200 w-full flex justify-between items-center px-6 md:px-14 py-5 sticky top-0 border-b-2 z-10">
       <div className="flex items-center">
         <Link href="#">
           <Image

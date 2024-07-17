@@ -19,7 +19,7 @@ export default function Home() {
       <div className="text-left w-11/12 mt-16">
         <h3 className="text-3xl font-bold">Jimmy’s Favorites</h3>
       </div>
-      <div className="flex flex-wrap justify-evenly items-center w-full mt-8 space-y-8 md:space-y-0">
+      <div className="flex flex-wrap justify-evenly items-center w-full mt-8 md:space-y-0">
         <Card
           src="chocolate-chip-cookie.png.avif"
           text="chocolate chip cookie"

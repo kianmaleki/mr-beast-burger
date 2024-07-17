@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HeaderBaners() {
   return (
     <>
-      <div className="relative w-full h-[300px] md:h-[500px] top-16 flex justify-end items-center mb-20 md:mb-40 bg-[#fe9dbc] z-[-1]">
+      <div className="relative w-full h-[300px] md:h-[500px] top-0 flex justify-end items-center mb-20 md:mb-40 bg-[#fe9dbc] z-[-1]">
         <Image
           src="/assets/sandwich-banner.png.avif"
           alt="banner image"
@@ -12,7 +12,7 @@ export default function HeaderBaners() {
           className="z-[-1]"
         />
         <div className="right-0 flex items-end justify-center p-5 w-full">
-          <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 gap-4 z-[-1]">
+          <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 gap-14 z-[-1]">
             {[
               "chris-style-label.svg",
               "beast-style-label.svg",
