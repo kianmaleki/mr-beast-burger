@@ -57,7 +57,7 @@ export default function MainFooter() {
           />
         </div>
       </div>
-      <div className="mt-5 pt-5 flex justify-end items-center border-t-2 border-gray-700 w-11/12 mx-auto">
+      <div className="mt-5 pt-5 flex justify-end items-center border-t-2 border-white-700 w-11/12 mx-auto">
         <p className="text-sm text-right">
           &copy; 2024 Virtual Dining Concepts, LLC. All rights reserved.
         </p>
