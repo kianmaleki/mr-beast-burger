@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Card({ src, text }) {
   return (
-    <div className="w-full sm:w-1/2 lg:w-1/4 xl:w-1/5 my-5 px-2 text-center">
+    <div className="w-full sm:w-1/2 lg:w-1/4 xl:w-1/5 px-2 text-center">
       <div className="w-full">
         <Link href="#">
           <Image

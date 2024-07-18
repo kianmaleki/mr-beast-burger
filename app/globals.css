@@ -20,16 +20,20 @@
 
 .delay1 {
   animation-delay: 0.5s;
+  transform: translateY(20px);
 }
 
 .delay2 {
   animation-delay: 1.5s;
+  transform: translateY(30px);
 }
 
 .delay3 {
   animation-delay: 0s;
+  transform: translateY(25px);
 }
 
 .delay4 {
   animation-delay: 1s;
+  transform: translateY(15px);
 }

@@ -51,7 +51,7 @@ export default function FooterBaners() {
               run out of your kitchen, available for delivery and pick up only
               via food delivery services.
             </p>
-            <button className="border-2 text-white bg-red-500 font-bold py-3 px-5 rounded-3xl hover:bg-black">
+            <button className=" text-white bg-red-500 font-bold py-3 px-5 rounded-3xl hover:bg-black">
               GET STARTED
             </button>
           </div>
