@@ -12,8 +12,8 @@ import {
 export default function MainFooter() {
   return (
     <footer className="bg-black text-white py-5 w-full p-5">
-      <div className="container mx-auto flex flex-wrap justify-between items-center px-5 md:px-10 space-y-5 md:space-y-0">
-        <div className="flex flex-wrap w-full md:w-6/12 space-y-3 md:space-y-0">
+      <div className="container mx-auto flex flex-wrap justify-evenly w-11/12 items-center px-5 md:px-10 space-y-5 md:space-y-0">
+        <div className="flex flex-wrap w-11/12 md:w-6/12 space-y-3 md:space-y-0">
           {[
             "About",
             "Order Now",
