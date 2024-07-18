@@ -11,7 +11,7 @@ export default function HeaderBaners() {
           objectFit="contain"
           className="z-[-1]"
         />
-        <div className="right-0 flex items-start justify-center p-5 w-full">
+        <div className="right-0 flex items-end justify-center p-5 w-full">
           <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 gap-14 z-[-1]">
             {[
               "chris-style-label.svg",
